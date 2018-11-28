@@ -102,4 +102,7 @@ stylus:
 # 部署配置
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+#  repo: https://github.com/Mitty-walter/Mitty-walter.github.io.git
+  repo: ssh://git@github.com/Mitty-walter/Mitty-walter.github.io.git
+  branch: master
